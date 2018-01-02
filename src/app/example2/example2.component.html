@@ -1,0 +1,5 @@
+<button (click)="lblShow=true">Show Text</button>
+<button (click)="lblShow=false">Hide Text</button>
+
+<p *ngIf="lblShow">example2 show/hide me!</p>
+<input type="text" [hidden]="!lblShow">

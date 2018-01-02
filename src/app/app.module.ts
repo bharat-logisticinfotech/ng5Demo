@@ -8,6 +8,7 @@ import { FormsModule }          from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { Example1Component } from './example1/example1.component';
 import { LeftLinksComponent } from './left-links/left-links.component';
+import { Example2Component } from './example2/example2.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { LeftLinksComponent } from './left-links/left-links.component';
     DashboardComponent,
     Example1Component,
     LeftLinksComponent,
+    Example2Component,
   ],
   imports: [
     BrowserModule,
