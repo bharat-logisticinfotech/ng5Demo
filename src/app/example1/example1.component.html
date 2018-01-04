@@ -1,7 +1,15 @@
 <p>example1 works! - check validation</p>
+
+<h1>Type view in p tag</h1>
 <input type="text" name="inpExample1" [(ngModel)]="txtName">
 <p class="text-red">{{txtName}}</p>
 
-<div>
-    1. Type view in p tag
-</div>
+<br/>
+<h1>Calculate Total Price : Price * Qty = Total Price</h1>
+Price <input [(ngModel)]="itemPrice"> * Qty <input [(ngModel)]="itemQty"> = <span *ngIf="itemPrice*itemQty>0">{{ itemPrice*itemQty }}</span>
+
+<br/>
+<h1>Direct access to the Input using has(#)</h1>
+<input type="text" value="" #textMe>{{textMe.value}}
+<button type="button">Click Me</button>
+
