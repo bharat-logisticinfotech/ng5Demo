@@ -37,3 +37,15 @@ scss/
 conditional class & style
 pipe
 - socket sails.socket.io
+
+
+what is?
+@    :
+[()] :
+{{}} :
+*ngFor: is Angular's repeater directive
+*ngIf: conditionally block
+
+@Input() decorator
+
+DI:
