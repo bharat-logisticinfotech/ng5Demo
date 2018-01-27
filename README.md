@@ -11,13 +11,14 @@ https://github.com/angular/angular-cli/wiki/generate
     To understand angular
 
 ## Excercise
-# example 1: Input
+### example 1: Input
     Text change will be apear to paragraph tag (Update text field value to paragraph tag)
 
-# example 2: Button
+### example 2: Button
     Show/Hide on button click
 
-# CLI
+### CLI
+```
 to generate component
     ng g c heroes
 to generate service
@@ -46,30 +47,34 @@ scss/
 conditional class & style
 pipe
 - socket sails.socket.io
-
+```
 =============
-what is?
-@    : decorator
-[()] :
-{{}} :
-*ngFor : is Angular's repeater directive
-*ngIf  : conditionally block
+> what is?
+> @    : decorator
+> [()] :
+> {{}} :
+> *ngFor : is Angular's repeater directive
+> *ngIf  : conditionally block
 
-@Input() decorator
-@Injectable() decorator
+> @Input() decorator
+> @Injectable() decorator
 
-DI   :
-RxJS :
+> DI   :
+> RxJS :
 
 data from anywhere—a web service, local storage, or a mock data source.
-
+```
 refactored: data from hereservice class
     provided "hereservice" -> AppModule;  so that it can be injected anywhere. (use Angular-DI to inject anywhere)
         - asynchronous singnature - Observable (RxJS Observable library)
         - RxJS of() to return an Observable; of mock heroes (Observable<Hero[]>)
         - ngOnInit - to calls the HeroService
         - MessageService - to log with HeroService class
+```
 
-directive: RouterOutlet
+# directive: RouterOutlet
 =======
 The RouterOutlet is one of the router directives that became available to the AppComponent because AppModule imports AppRoutingModule which exported RouterModule.
+
+Ref:
+> Custom validator: https://www.code-sample.com/2017/09/angular-4-form-password-match-validator.html
